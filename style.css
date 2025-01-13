@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-}
+}/*
 .tophead{
     height: 5vh;
     width: 100%;
@@ -57,10 +57,88 @@
 }
 .bodynav ul li a{
     text-decoration: none;
-}
-footer {
-    position: relative;
-    height: 20vh;
+}*/
+header{
+    /* position: relative; */
+    height: 8vh;
     width: 100%;
-    background-color: black;
+    background-color: #042544;
+    display: flex;
+    justify-content: space-between;
 }
+.logo{
+    display: inline-block;
+    width:15%;
+    height:100%;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+}
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header ul li a:hover{
+    background-color: white;
+    color: #0C5888;
+    border-radius: 5px;
+}
+.button{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    background-color: white;
+    color: #0C5888;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    
+}
+.hero{
+    position: relative;
+    height: 92vh;
+    width: 100%;
+    background-image: url("images/bg_cover.jpg");
+    background-size: cover;
+    
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    text-align: center
+}
+.container p{
+    padding: 0 15px;
+    text-align: center;
+}
+.container a{
+    background-color: white;
+    color: #0C5888;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    
+}
+
