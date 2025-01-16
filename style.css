@@ -209,7 +209,7 @@ header ul li a:hover{
     grid-template-columns: 40% 40%;
     justify-content: center;
     column-gap: 6%;
-    row-gap: 4%;
+    row-gap: 3%;
     margin-top: 15px;
     width: 98%;
 }
@@ -235,7 +235,7 @@ header ul li a:hover{
     background-color: #0C5888;
     color: white;
 }
-@media(max-width:480px){
+@media(max-width:600px){
     .societies_box{
         grid-template-columns: 80%;
     }
