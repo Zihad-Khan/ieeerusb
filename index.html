@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>IEEE RUSB</title>
 </head>
-<body>
+<body> 
     <header>
-        <i id="menu" class="fa-solid fa-bars"></i>
+        <div class="menu-button" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
         <img class="logo" src="images/ieee_rusb_logo.png" alt="logo">
         <ul>
             <li><a href="#">Home</a></li>
@@ -25,9 +27,18 @@
         </div>
     </header>
     <div class="hero">
+        <div class="menu" id="dropdown-menu">
+            <a class="menu_item" href="#">Home</a>
+            <a class="menu_item" href="#">About</a>
+            <a class="menu_item" href="#">Societies</a>
+            <a class="menu_item" href="#">Activities</a>
+            <a class="menu_item" href="#">Links</a>
+            <a class="menu_item" href="#">Blogs</a>
+            <a class="menu_item" href="#">Creative Section</a>
+        </div>
         <div class="container">
             <h1 style="color: #1778B3;">IEEE</h1>
-            <h1 style="text-shadow: 1px 1px 2px white;color: #12CAD9;">RAJSHAHI UNIVERSITY STUDENT BRUNCH</h1>
+            <h1 style="text-shadow: 1px 1px 2px white;color: #12CAD9;">RAJSHAHI UNIVERSITY STUDENT BRANCH</h1>
             <P style="color: white; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis libero veniam blanditiis molestias esse nisi dolorum numquam officiis, nemo, in eligendi consectetur hic odit qui, voluptatem fuga voluptatibus iste.</P>
             <br>
             <a href="#">About Us</a>
@@ -45,6 +56,7 @@
                     <div class="social_ions">
                         <a href="https://www.facebook.com/mutasimbillah0" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
                         
                     </div>
                 </div>
@@ -58,6 +70,7 @@
                     <div class="social_ions">
                         <a href="https://www.facebook.com/shantokumar.sen" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
                         
                     </div>
                 </div>
@@ -71,6 +84,7 @@
                     <div class="social_ions">
                         <a href="https://www.facebook.com/anamulhaquemony.anamul" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
                         
                     </div>
                 </div>
@@ -84,6 +98,21 @@
                     <div class="social_ions">
                         <a href="https://www.facebook.com/azminetasik" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <div class="container">
+                    <img src="images/jabir_mahmud.jpg" alt="jabir_mahmud">
+                    <h2>MD. JABIR MAHMUD</h2>
+                    <p>WEBMASTER</p>
+                    <p>ICE,RU</p>
+                    <div class="social_ions">
+                        <a href="https://www.facebook.com/profile.php?id=100087549653325" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
                         
                     </div>
                 </div>
@@ -178,11 +207,11 @@
             <p>Copyright © 2025 IEEE RUSB All rights reserved.</p>
             <div class="social_ions">
                 <a href="https://www.facebook.com/ieeerusb" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
