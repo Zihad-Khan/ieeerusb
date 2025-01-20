@@ -182,13 +182,18 @@ header ul li a:hover{
 }
 .items .container h2{
     color: #0C5888;
-    padding: 0 20px;
+    margin: 0 30px;
 }
 .items .container p{
     color: #042544;
     padding: 0  10px;
 }
 .items .container .fa-brands{
+    color: #0C5888;
+    margin: 5px 10px;
+    font-size: 24px;
+}
+.items .container .fa-solid{
     color: #0C5888;
     margin: 5px 10px;
     font-size: 24px;
@@ -245,7 +250,7 @@ footer{
     align-items: center;
 }
 .foot_container{
-    width: 95%;
+    width: 90%;
     display: flex;
     
 }
@@ -284,7 +289,15 @@ footer{
     margin: 10px 20px;
     font-size: 24px;
 }
+.copyright .fa-solid{
+    color: white;
+    margin: 10px 20px;
+    font-size: 24px;
+}
 @media(max-width:700px){
+    .logo{
+        width: 25%;
+    }
     .hero .container p{
         text-align: justify;
     }
@@ -299,5 +312,9 @@ footer{
     }
     header ul{
         display: none;
+    }
+    .foot_container{
+        width: 80%;
+        
     }
 }
