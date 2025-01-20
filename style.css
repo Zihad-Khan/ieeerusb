@@ -258,7 +258,7 @@ footer{
     flex: 1;
 }
 
-.foot_container .items h2{
+.foot_container .items h3{
     color: #12CAD9;
     
 }
@@ -314,7 +314,7 @@ footer{
         display: none;
     }
     .foot_container{
-        width: 80%;
+        width: 95%;
         
     }
 }
